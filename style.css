@@ -1,0 +1,165 @@
+body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 18px;
+  line-height: 150%;
+  color: #333;
+  background: #f9f4f4;
+  position: relative;
+}
+
+#first_line_color {
+  background: #f1f1f1;
+
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  position: relative;
+  display: inline-block;
+  left: 0px;
+}
+
+body .row1 {
+  background: #f1f1f1;
+
+  width: 100%;
+  height: 100%;
+  background-color: #f1f1f1;
+  position: relative;
+  display: inline-block;
+  left: 0px;
+}
+
+.first_line > .div1 {
+  width: 170px;
+  height: 60px;
+  border: 1px solid blue;
+  background-color: darkturquoise;
+  position: relative;
+  display: inline-block;
+  left: 50px;
+}
+.first_line > .div1 > h1 {
+  text-align: center;
+  color: #f1f1f1;
+}
+
+.form-inline > .dropdown {
+  display: inline-block;
+  position: absolute;
+  right: 32%;
+  top: 40%;
+}
+.form-inline > form > .MyButton1 {
+  position: absolute;
+  right: 15%;
+  display: inline-block;
+}
+.form-inline > form > .MyButton2 {
+  position: absolute;
+  right: 5%;
+  display: inline-block;
+}
+
+header {
+  background: #f1f1f1;
+}
+
+header > h1 {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  font-size: 48px;
+  color: darkturquoise;
+  text-align: left;
+}
+
+a {
+  color: darkturquoise;
+}
+
+.Col_container {
+  margin: 30px;
+  background: #f1f1f1(160, 97, 97);
+  /* color:rgb(192, 146, 146); */
+}
+
+/* Selecting elements by class */
+.container1 {
+  /* width: 1000px;
+    height: 1000px; */
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 5px;
+  background: rgb(5, 5, 5);
+}
+
+.container2 {
+  /* width: 1000px;
+    height: 1000px; */
+  position: relative;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding: 20px;
+  background: rgb(250, 250, 248);
+}
+
+#main_figure {
+  /* width: 250px;
+    height: 250px;
+    border-style: solid;
+    border-color: green;
+    border-width: 5px; */
+  /* position:absolute;
+    top:50px; */
+  /* left:50px;   */
+  float: left;
+}
+
+#introduction > p {
+  color: black;
+}
+
+#main_figure > h2 {
+  position: absolute;
+  right: 0px;
+  top: 0px;
+}
+
+.container > h2 {
+  position: relative;
+  right: 500px;
+  top: 0px;
+  color: rgb(155, 155, 17);
+  font-size: 400;
+}
+
+.container_data {
+  padding: 10px;
+  margin: 30px;
+  background-color: #f1f1f1;
+}
+
+/* .container2>header>h2{position:relative;
+  right:500px;
+  top:0px;
+  color:red;
+  font-size:500
+} */
+
+header > h2 {
+  padding: 0px;
+  margin: 0px;
+  margin-bottom: 0px;
+  font-size: 28px;
+  color: darkturquoise;
+  text-align: center;
+}
+
+figure figcaption {
+  border: whitesmoke;
+  text-align: center;
+  color: #333(39, 228, 140);
+}
